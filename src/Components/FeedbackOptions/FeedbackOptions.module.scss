@@ -1,0 +1,29 @@
+.button {
+  width: 100%;
+  margin: 1em 0 1em;
+  padding: 0.7em 1em;
+
+  border: none;
+  border-radius: 0.5em;
+
+  color: var(--accent-color-2);
+  background-color: var(--primary-color);
+
+  font-size: 90%;
+  font-weight: 200;
+
+  text-transform: capitalize;
+
+  transition: background-color 300ms ease;
+
+  &:hover {
+    background-color: var(--secondary-color);
+
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 5px 5px var(--accent-color-1);
+  }
+}

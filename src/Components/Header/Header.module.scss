@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: var(--bg-color);
+
+  h1 {
+    margin: 2em 1em;
+    font-size: 250%;
+  }
+
+  img {
+    height: auto;
+    max-width: 30em;
+
+    margin-bottom: 2em;
+  }
+}
